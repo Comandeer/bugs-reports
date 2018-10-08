@@ -1,0 +1,1 @@
+/* First comment */ /* Second comment */
