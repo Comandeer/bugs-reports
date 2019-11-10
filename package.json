@@ -1,0 +1,11 @@
+{
+  "name": "bugs-reports",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "rollup": "^1.26.4"
+  },
+  "scripts": {
+    "start": "node ."
+  }
+}
