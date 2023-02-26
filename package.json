@@ -1,0 +1,27 @@
+{
+  "name": "bugs-reports",
+  "version": "1.0.0",
+  "description": "Various minimal bug reproductions. Switch to appropriate branch to see the reproduction.",
+  "type": "module",
+  "exports": "./dist/index.mjs",
+  "scripts": {
+    "prebuild": "tsc",
+    "build": "rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Comandeer/bugs-reports.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Comandeer/bugs-reports/issues"
+  },
+  "homepage": "https://github.com/Comandeer/bugs-reports#readme",
+  "devDependencies": {
+    "rollup": "^3.17.3",
+    "rollup-plugin-dts": "^5.2.0",
+    "typescript": "^4.9.5"
+  }
+}
