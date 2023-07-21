@@ -1,0 +1,26 @@
+{
+  "name": "bugs-reports",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Various minimal bug reproductions. Switch to appropriate branch to see the reproduction.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Comandeer/bugs-reports.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Comandeer/bugs-reports/issues"
+  },
+  "homepage": "https://github.com/Comandeer/bugs-reports#readme",
+  "devDependencies": {
+    "@eslint/js": "8.45.0",
+    "eslint": "8.45.0"
+  }
+}
