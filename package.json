@@ -1,0 +1,13 @@
+{
+  "name": "ava-tap-error-reproduction",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal reproduction of AggregateError in ava's TAP reporter (dumpError)",
+  "scripts": {
+    "test": "ava --tap --timeout=1s test.js"
+  },
+  "devDependencies": {
+    "ava": "8.0.1"
+  }
+}
